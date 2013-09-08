@@ -1,0 +1,112 @@
+   #full_screen {
+     height: 100%;
+     width: 100%;
+     padding: 0;
+     margin: 0;   float: left;
+   }
+   
+
+     
+     #map_canvas{
+          width: 100%;
+
+     }
+     
+     
+   
+   html {
+     padding: 0;
+     margin: 0;  
+     min-height: 100%; 
+   }
+   
+      body {
+     padding: 0;
+     margin: 0; 
+          min-height: 100%; 
+   overflow:hidden; 
+     } 
+     
+
+  
+  #logo{
+     height: 74px;
+     margin-left: 50px;
+     float:left;
+
+  }
+  
+         
+     
+     
+     #menue{
+     
+          position: fixed;
+          bottom:0;
+          width: 100%;
+          height: 75px;
+          background-color: rgba(0,0,0, 0.5);
+     }
+     
+     
+      #menueinhalt{
+        margin-left:auto;
+        margin-right:auto; 
+        width: 460px;
+        z-index: 1000;
+      }
+     
+     
+  
+   #menue_top{
+          float: left;
+          width: 100%;
+          height: 75px;
+          background-color: rgba(0,0,100, 0.65); 
+    }
+  
+input {
+  width: 260px;
+  padding: 10px 5px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #cfcfcf;
+  -webkit-box-shadow: inset 0 0 4px 2px rgba(0,0,0, 0.1);
+  -moz-box-shadow: inset 0 0 4px 2px rgba(0,0,0, 0.1);
+  box-shadow: inset 0 0 4px 2px rgba(0,0,0, 0.1);
+  margin-top: 15px;
+  margin-left:10px;
+}
+input:focus {
+  outline:0;
+  border:1px solid #95D2DF;
+  -webkit-box-shadow: 0 0 5px 4px rgba(36,184,194, 0.10);
+  -moz-box-shadow: 0 0 5px 4px rgba(36,184,194, 0.10);
+  box-shadow: 0 0 5px 4px rgba(36,184,194, 0.10);
+}
+  
+      .icon{
+       width: 70px;
+   }
+    #message {
+      width: 70%;
+      margin: 0 auto;
+      min-height: 30px;
+      margin-top: 30px;
+      background-color: rgba(255, 0, 0, 0.4);
+    }
+  
+  @media screen and (max-width: 1350px) {
+   #menue_top{height: 100px;}
+   .login{width: 100px; float:left;}
+   #login_form{display:block;}
+   .logo{margin-top: 15px;}
+   
+  }
+           
+  
+  #new_point {
+          height: 50px;
+          margin-bottom: 15px;
+  }
