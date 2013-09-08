@@ -1,4 +1,5 @@
 <?php
+/* TODO: use Sinatra instead of PHP*/
 $lat = 52.3145;
 $lon = 13.2445;
 $radius = 10;
